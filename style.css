@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  
+  section {
+    width: 45%;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #resume-preview {
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #f9f9f9;
+  }
